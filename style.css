@@ -1,0 +1,521 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 100px;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    width: 55%;
+    float: left;
+    height: 100px;
+    
+  }
+
+  .space-between { 
+    justify-content: space-between; 
+    margin-top: 20px;
+  }
+
+  .header-picture {
+    margin-left: 20px;
+    margin-right: 40px;
+  }
+
+  .flex-item {
+   
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    
+  
+    }
+
+    .flex-container-icons {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        width: 35%;
+        float: right;
+        height: 100px;
+       
+    }
+    .icons {
+        justify-content: space-between; 
+        margin-top: 20px;
+       
+    }
+    .line {
+        margin-top: 10px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: black;
+        transition-duration: 0.4s;
+    }
+    ul li {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    a:hover {
+        color: aqua;
+    }
+
+    .fa-instagram:hover {
+        color: red;
+    }
+
+    .fa-instagram, .fa-linkedin, .fa-facebook, .fa-google-plus{
+        opacity: 0.5;
+    }
+     .fa-linkedin:hover {
+        color: red;
+     }
+     .fa-facebook:hover {
+        color: red;
+     }
+      .fa-google-plus:hover {
+        color: red;
+    }
+    .fa-search {
+        margin-top: -30px;
+        margin-right: -10px;
+        background-color: rgb(232, 71, 71);
+        height: 55px;
+        width: 100px;
+        text-align: center;
+        padding-top: 45px;
+        
+        
+    }
+
+h4{
+
+    position: absolute;
+    top:-4%;
+    font-size: 20px;
+    font-family: barlow condensed,sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+
+.back-img {
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    margin: 0;
+   
+   
+
+}
+
+  .sub-header{
+ text-align: center;
+ font-size: 30px;
+ height: 50vh;
+ line-height: 50vh;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.under-sub-header {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+
+
+.img-area {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+.single-img{
+ padding: 0 20px 20px;
+ float: left;
+}
+
+
+img:hover{
+opacity: .1s;
+transition: .9s;
+}
+
+
+    .sub-header {
+        text-align: center;
+    }
+
+ 
+    
+    .single-img{
+    
+        padding: 0 20px 20px 0;
+       
+    
+    }
+    
+    .single-img:hover{
+    
+       opacity: .5;
+    
+        transition: .9s;
+    
+    }
+
+    .text-box {
+        position: absolute;
+        top: 65%;
+        left: 30%;
+        translate: (-50%, -50%);
+        text-align: center;
+    }
+    
+    .heading-primary {  
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 60px;
+   
+    
+}
+.heading-primary-main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+
+
+
+}
+.heading-primary-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text {
+    display: block;
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(5, 5, 41);
+    text-align: center;
+}
+.cover {
+    background-image:url(https://images.prismic.io/mystique/4526dcf9-3e30-4aae-a68e-6d47ea09f186_alex-ghizila-bjzajETceI4-unsplash.jpg?auto=compress%2Cformat&rect=0%2C0%2C6016%2C4000&w=540&h=4000&q=75&fit=crop&ar=16%3A9&fm=pjpg&exp=-10) ;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+ }
+
+.for-labels-span {
+    color: #fff;
+    font-size: 1.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 30px;
+}
+ .header-label, #date {
+    margin-top: 4%;
+    width: 200px;
+    height: 40px;
+    margin-right: 5px;
+   
+}
+#travel {
+    width: 200px;
+    height: 45px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+
+
+
+.button1 {
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color:rgb(232, 71, 71) ;
+    color: white;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    transition-duration: 0.4s;
+    border: none;
+}
+button:hover {
+    background-color: aqua;
+}
+
+
+
+
+.wrapper {
+    height: 35vh;
+}
+
+.heading-key {
+    text-align: center;
+    margin-top:25vh ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.heading-key-main {
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.heading-key-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    opacity: 0.5;
+}
+
+.flex-container-email{
+    margin-top: 30vh;
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/banner/newsletter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 67px 0;
+    display: flex;
+}
+.email {
+    justify-content: space-around;
+   
+}
+
+
+
+.button2 {
+   
+        text-transform: uppercase;
+        padding: 15px 20px;
+        border-radius: 5px;
+        background-color:rgb(232, 71, 71) ;
+        color: white;
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: inline-block;
+        transition-duration: 0.4s;
+        border: none;
+
+
+    }
+    button:hover {
+        background-color: aqua;
+    }
+
+    .heading-text {
+        display: block;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
+    }
+
+    .text-main {
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+    .text-sub {
+        font-size:15px;
+        font-weight: 100;
+        opacity: 0.5;
+    }
+
+    .emailcontainer {
+        width: 30em;
+        height: 40px;
+       
+    }
+
+
+.cards-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.single-card {
+    margin: 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 60vh;
+}
+.single-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+  }
+
+  .cards-span {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    margin-left: 10px;
+  }
+
+  h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+  }
+
+  .button3 {
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color:rgb(232, 71, 71) ;
+    color: white;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    transition-duration: 0.4s;
+    border: none;
+    margin: 40px;
+  }
+  .image-video {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 60px;
+  }
+  
+  .icons-last {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 15em;
+  }
+  .lastone {
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  h3 .underh3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .underh3 {
+    opacity: 0.5;
+  }
+
+  footer {
+    display: block;
+    width: 100%;
+    height: 98vh;
+    background-color: rgb(5, 5, 41);
+  }
+
+  footer h6 { 
+   color: #fff;
+   font-size: medium;
+   font-weight: 100;
+   padding-top: 90vh;
+   text-align: center;
+   
+
+  }
+  .colorlib {
+    text-decoration: none;
+    color:rgb(232, 71, 71);
+  }
+  .colorlib:hover {
+    color: rgb(232, 71, 71);
+  }
+ 
+
+  @media only screen and (max-width:620px) {
+    .back-img,
+    .button1,
+    .button2,
+    .button3,
+    .cards-area,
+    .cards-span,
+    .colorlib, 
+    .cover, 
+    .email,
+    .emailcontainer,
+    .fa-facebook,
+    .fa-google-plus, 
+    .fa-google-plus, 
+    .fa-instagram,
+    .fa-linkedin,
+    .fa-search,
+    .flex-container,
+    .flex-container-email,
+    .flex-container-icons,
+    .flex-item,
+    .for-labels-span,
+    .header-label,
+    .header-picture,
+    .heading-key,
+    .heading-key-main,
+    .heading-key-sub,
+    .heading-text,
+    .icons,
+    .icons-last,
+    .image-video,
+    .img-area,
+    .lastone,
+    .line,
+    .main,
+    .single-card,
+    .single-img,
+    .space-between,
+    .sub-header,
+    .text,
+    .text-box,
+    .text-main,
+    .text-sub,
+    .under-sub-header,
+    .underh3,
+    .wrapper {
+      
+        width: 100%;
+    } 
+
+}
+
+ 
+
+
+  
+
+
+
+
+ 
+
+    
+
+
+
+
+
+
+
+
+
